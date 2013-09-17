@@ -8,17 +8,26 @@
 		<meta name='apple-mobile-web-app-capable' content='yes' />
 		<meta name='apple-mobile-web-app-status-bar-style' content='default' />
 
-		<title>hello vis-touch</title>
+		<title>nui:gation</title>
 
 		<link href="styles/styles.css" media="screen" rel="stylesheet" type="text/css">
 
 		<!-- imports -->
 		<script type="text/javascript" src="js/lib/d3/d3.v3.js"></script>
 		<script type="text/javascript" src="js/lib/jquery/jquery-1.10.2.js"></script>
+		<script type="text/javascript" src="js/lib/underscore/underscore-min.js"></script>
+
+		<script type="text/javascript" src="js/lib/threejs/three.js"></script>
+		<script type="text/javascript" src="js/lib/threejs/Detector.js"></script>
 
 	</head>
 
 	<body>
+		<div id='container'></div>
+		<div id='overlay'>
+			<svg xmlns="http://www.w3.org/2000/svg" version="1.1" id='overlay_svg'></svg>
+		</div>
+
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
